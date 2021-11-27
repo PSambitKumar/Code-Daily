@@ -75,7 +75,7 @@ int max_rid, i;
 					int x = rs1.getInt(1);
 		%>
 		<tr>
-			<td><%out.println(rs1.getInt(1)); %></td>
+			<td><%out.println("PID-2021-"+rs1.getInt(1)); %></td>
 			<td><%out.println(rs1.getString(2)); %></td>
 			<td><%out.println(rs1.getString(3)); %></td>
 			<td><%out.println(rs1.getInt(4)); %></td>

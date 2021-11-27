@@ -80,9 +80,14 @@ body{
     margin-top: 50px;
     margin-left: 30px;
     border-radius: 30px;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     background-color:#02c2db;
-    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
+    box-shadow: 13px 13px 20px #a8aaac,
+    -13px -13px 20px #fff;
+
+    color: #fff; 
+    background-size: 200%;
+    transition: 0.6s;
 }
 
 .submit-button1:hover input{
@@ -109,11 +114,16 @@ body{
     border-radius: 30px;
     color: rgb(255, 255, 255);
     background-color:#ff0000;
-    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
+    box-shadow: 13px 13px 20px #a8aaac,
+    -13px -13px 20px #fff;
+
+    color: #fff; 
+    background-size: 200%;
+    transition: 0.6s;
 }
 
 .cancel-button1:hover input{
-    background-color: #ff4800;
+    background-color: #ff5e00;
 }
 
 .cancel-button1:active input{
@@ -124,15 +134,15 @@ body{
 
 .delete-button1{
     position: relative;
-    margin-left:10px;
+    margin-left:6px;
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
     border-radius: 30px;
-    width: 40%;
+    width: 45%;
     font-family: "Lato";
-    font-size: 10px;
+    font-size: 8px;
     height: 20px;
     color: rgb(255, 255, 255);
     background-color:#ff0000;
@@ -159,7 +169,7 @@ body{
     border-radius: 30px;
     width: 40%;
     font-family: "Lato";
-    font-size: 10px;
+    font-size: 8px;
     height: 20px;
     color: rgb(255, 255, 255);
     background-color:#0bbb46;
