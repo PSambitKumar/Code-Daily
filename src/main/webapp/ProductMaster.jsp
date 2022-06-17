@@ -27,7 +27,6 @@
 </form>
 
 
-
 <%!
 int max_rid, i;
 %>
@@ -41,8 +40,6 @@ int max_rid, i;
 		//out.print(max_rid);
 	}
 %>
-
-
 
 
 
@@ -93,7 +90,6 @@ int max_rid, i;
 		%>
 
 	</table>
-
 </div>
 </body>
 </html>

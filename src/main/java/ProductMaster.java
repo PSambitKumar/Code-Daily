@@ -29,7 +29,8 @@ public class ProductMaster extends HttpServlet {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sambit_db","root","");	
-			String sql = "call insertintopm(?,?,?)";
+//			String sql = "call insertintopm(?,?,?)";
+			String sql = "INSERT  INTO productmaster(ProductName, ProductDesc, ProductPrice) VALUES (?,?,?)";
 			PreparedStatement ps = con.prepareStatement(sql);
 			ps.setString(1, pname);
 			ps.setString(2, pdesc);
